@@ -1,0 +1,29 @@
+.ReactModal__Overlay {
+
+}
+
+.ReactModal__Content {
+    top: 50%  !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%);
+    padding: $m-size !important;
+    text-align: center;
+    background-color: #464B5E !important;
+    color: white;
+}
+
+.React__Content__title {
+    margin-bottom: $m-size;
+}
+
+.React__Content__result {
+    margin-bottom: $m-size;
+    font-size: $m-size;
+}
+
+.React__Content__button {
+    padding: 10px 15px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}

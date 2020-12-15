@@ -1,0 +1,26 @@
+.options {
+    background-color: lighten(#464B5E, 20%);
+}
+
+.options--tab {
+    display: flex;
+    justify-content: space-between;
+    padding: $s-size;
+    background-color: #464B5E;
+}
+
+.options--tab__title {
+    color: white;
+    font-size: $s-size;
+}
+
+.options--tab__remove-all {
+    color: white;
+}
+
+.options__no-option {
+    margin: 0;
+    padding: $s-size;
+    font-size: $s-size;
+    text-align: center;
+}

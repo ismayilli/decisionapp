@@ -1,0 +1,10 @@
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: $xs-size;
+    color: white;
+}
+
+.option__remove {
+    cursor: pointer;
+}

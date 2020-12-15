@@ -1,0 +1,25 @@
+html,body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #34CAD7;
+    padding-bottom: $l-size;
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.container {
+    width: 40rem;
+    margin: 0 auto;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 $xs-size;
+    }
+}
